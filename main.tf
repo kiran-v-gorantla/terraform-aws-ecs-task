@@ -1,5 +1,5 @@
 resource "aws_ecs_task_definition" "name" {
-  family                   = var.family
+  family                   = var.task_family_name
   requires_compatibilities = var.requires_compatibilities
   network_mode             = var.network_mode
   cpu                      = var.cpu

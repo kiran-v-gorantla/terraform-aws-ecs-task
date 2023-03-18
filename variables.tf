@@ -1,4 +1,4 @@
-variable "family" {
+variable "task_family_name" {
     type = string
 }
 
