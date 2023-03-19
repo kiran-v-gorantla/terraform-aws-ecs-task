@@ -30,3 +30,8 @@ variable "cpu_architecture" {
     type = string
   
 }
+
+variable "execution_role_arn" {
+  type = string
+  
+}
